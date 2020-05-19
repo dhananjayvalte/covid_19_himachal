@@ -1,0 +1,101 @@
+{
+  "name" : "Screening Details",
+  "uuid" : "54770224-0e87-4528-b270-a8189259df4d",
+  "formType" : "ProgramEnrolment",
+  "formElementGroups" : [ {
+    "uuid" : "a4d83e57-386c-4e49-b801-04dec1a47f16",
+    "name" : "Screening Details",
+    "displayOrder" : 1.0,
+    "display" : "Screening Details",
+    "formElements" : [ {
+      "name" : "If having Diabetes, Asthma, hypertension?",
+      "uuid" : "29a036e8-9305-4495-95af-5eff2c42f689",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "If having Diabetes, Asthma, hypertension?",
+        "uuid" : "f31c6627-f294-43dc-bacb-0734b07fc44d"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Whether contact history with confirmed COVID patient?",
+      "uuid" : "135c6417-2d4d-4d8e-9642-dc073c751539",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Whether contact history with confirmed COVID patient?",
+        "uuid" : "c32ce31e-218b-44ea-b9d7-6156906d4dd7"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Whether having Cough, Fever or difficulty in breathing?",
+      "uuid" : "d4632606-d362-4b07-9c86-4243244df76f",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Whether having Cough, Fever or difficulty in breathing?",
+        "uuid" : "671d63e1-a104-4dde-87fd-9eb367089951"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Any foreign travel history in last 28 days?",
+      "uuid" : "58d55f6b-6f9f-41a7-bd23-f27e9903ac21",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Any foreign travel history in last 28 days?",
+        "uuid" : "fe370a9c-dc31-40b6-ac74-2a4a24d18c3e"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Date of arrival in India",
+      "uuid" : "6fd61b65-710d-460c-8f52-66bc1569c21b",
+      "keyValues" : [ {
+        "key" : "datePickerMode",
+        "value" : "Default"
+      }, {
+        "key" : "durationOptions",
+        "value" : [ "days" ]
+      } ],
+      "concept" : {
+        "name" : "Date of arrival in India.",
+        "uuid" : "0b93f0ef-0f69-4702-96f5-73658b3c52fe"
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Any travel history from other state in India in last 28 days?",
+      "uuid" : "e0fe6d2e-0e27-4e11-841b-e69cbc2aa34f",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Any travel history from other state in India in last 28 days?",
+        "uuid" : "73852162-be9f-4ae3-91ba-b8517eee0dd7"
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "Date of arrival in Himachal",
+      "uuid" : "27dc7e0c-8678-4474-abb3-79a02ac43057",
+      "keyValues" : [ {
+        "key" : "durationOptions",
+        "value" : [ "days" ]
+      } ],
+      "concept" : {
+        "name" : "Date of arrival in Himachal.",
+        "uuid" : "71edd98a-6947-4468-92ff-7aa122cd4843"
+      },
+      "displayOrder" : 7.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ]
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : ""
+}

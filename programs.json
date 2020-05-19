@@ -1,0 +1,8 @@
+[ {
+  "name" : "COVID-19-HP",
+  "uuid" : "a0feeb6b-ca88-474c-b17b-528a78ab3829",
+  "colour" : "green",
+  "voided" : false,
+  "enrolmentEligibilityCheckRule" : null,
+  "enrolmentSummaryRule" : null
+} ]

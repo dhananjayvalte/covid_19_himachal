@@ -1,0 +1,39 @@
+{
+  "name": "himachal",
+  "version": "1.0.0",
+  "description": "Himachal",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenCHS/himachal.git",
+    "prettify-project": "prettier --write \"**/*.js\""
+  },
+  "keywords": [
+    "Sample",
+    "OpenCHS"
+  ],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OpenCHS/jnpct/issues"
+  },
+  "homepage": "https://github.com/OpenCHS/jnpct#readme",
+  "dependencies": {
+    "openchs-idi": "github:openchs/openchs-idi#950376ac50ad66b4d2559226bda1eea3ed8da3ed",
+    "rules-config": "github:openchs/rules-config#24cc3d6fba5f7f4e8938f25a732f3594897232c1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "openchs-models": "0.0.42",
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.0"
+  }
+}

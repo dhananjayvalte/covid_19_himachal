@@ -1,0 +1,13 @@
+[
+  {
+    "uuid": "b247d804-3daf-11ea-b77f-2e728ce88125",
+    "name": "admin@himachal",
+    "password": "password",
+    "email": "sevasample@example.com",
+    "phoneNumber": "+919999997699",
+    "organisationUUID": "0f2619cc-8884-11ea-bc55-0242ac130003",
+    "operatingIndividualScope": "None",
+    "admin": false,
+    "orgAdmin": true
+  }
+]

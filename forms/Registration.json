@@ -1,0 +1,63 @@
+{
+  "name" : "Registration",
+  "uuid" : "74fce2da-b0a2-46ac-9879-19ed55fd9a2d",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "992257a9-8e3c-417a-9cfb-0c418b0fad30",
+    "name" : "Registration Details",
+    "displayOrder" : 1.0,
+    "display" : "Registration Details",
+    "formElements" : [ {
+      "name" : "Mobile Number",
+      "uuid" : "fa18c656-5106-44f1-a4d7-3b2fc6f15b0d",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Mobile Number",
+        "uuid" : "7fd25947-7f66-4c2e-b086-fcf0e6671989"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "validFormat" : {
+        "regex" : "^[1-9]\\d{9}$|^[1-9]\\d{9}$",
+        "descriptionKey" : "InvalidNumber"
+      },
+      "mandatory" : true
+    }, {
+      "name" : "ACF house number",
+      "uuid" : "6cfaba43-27de-47bf-be9c-1910ad7818a0",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "ACF house number",
+        "uuid" : "6b83a896-c19c-4b2d-934a-abdeefe85d4c"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Name of the head of the family",
+      "uuid" : "3dda1feb-bd9e-49c9-99e3-b8fa8b2b5545",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Name of the head of the family",
+        "uuid" : "cacf392f-d919-45ff-ba40-a431d0f26334"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Name of the family member under screening?",
+      "uuid" : "44e1c655-305a-49cb-bb5a-d061c140974c",
+      "keyValues" : [ ],
+      "concept" : {
+        "name" : "Name of the family member under screening?",
+        "uuid" : "5b1a3255-2c26-47eb-97e0-961f14f336c2"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ]
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : ""
+}
